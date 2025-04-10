@@ -3,7 +3,7 @@
 > “Where curiosity meets code.”  
 Welcome to my personal portfolio — a curated showcase of data-driven adventures, intelligent applications, and real-world problem-solving. This is more than a portfolio — it's my playground for building, learning, and creating with purpose.
 
-🔗 **Live Portfolio:** [your-portfolio-link.com](https://your-portfolio-link.com)  
+🔗 **Live Portfolio:** [your-portfolio-link.com](  https://anshigupta1.github.io/Portfolio-demo-website/)  
 🌐 **GitHub Profile:** [github.com/AnshiGupta1](https://github.com/AnshiGupta1)
 
 ---
@@ -46,11 +46,11 @@ Welcome to my personal portfolio — a curated showcase of data-driven adventure
 ## 🛠️ Built With
 
 - **Frontend:** HTML5, CSS3, Bootstrap
-- **Data & Backend:** Python, Streamlit, Pandas, NumPy
+- **Data & Backend:** Python, Streamlit, Pandas, NumPy, Sql
 - **Visualization:** Power BI, Matplotlib, Seaborn
 - **NLP & ML Models:** Scikit-learn, LSTM, CNNs, Transformers, Qdrant
 - **APIs & Tools:** CoinGecko, Together AI
-- **Deployment:** GitHub Pages / Netlify (optional)
+- **Deployment:** GitHub Pages
 
 ---
 
