@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Anshi_Portfolio</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+
+    <!-- Stylesheets
+    ================================================== -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+   
+    <!-- Typed.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   
+   
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Other meta and links -->
+  <style>
+    .img-res {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .portfolio-item {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .portfolio-item-info {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .portfolio-item h4 {
+        font-size: 18px;
+        margin: 0;
+        font-weight: 600;
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .mb-4 {
+        margin-bottom: 30px;
+    }
+  </style>
+
+
+    !-- Custom Styles -->
+ <style>
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #f0a500;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  .social-icon {
+    font-size: 24px;
+    color: #f0a500;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+
+  .social-icon:hover {
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    .icon-circle {
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+    }
+
+    .social-icon {
+      font-size: 20px;
+    }
+  }
+ </style>
+</head>
+<body>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var typed = new Typed("#typed-roles", {
+            strings: ["Data Scientist",  "Machine Learning Engineer","Data Analyst","Statistician", "AI Enthusiast","NLP Engineer", "Tech Explorer"],
+            typeSpeed: 80,
+            backSpeed: 60,
+            loop: true
+          });
+        });
+      </script>
+    
+
+    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+        <nav id="primary-navigation" class="site-navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+
+                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                   
+                </div><!-- /.navbar-header -->
+
+                <div class="main-menu" id="portfolio-perfect-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="page-scroll"><a href="#hero">Home</a></li>
+                        <li class="page-scroll"><a href="#about">About</a></li>
+                        <li class="page-scroll"><a href="#resume">Resume</a></li>
+                       
+                        <li class="page-scroll"><a href="#projects">Projects</a></li>
+                        <li class="page-scroll"><a href="#contact">Contact</a></li>
+                        
+                    </ul><!-- /.navbar-nav -->
+
+                </div><!-- /.navbar-collapse -->
+
+            </div>
+        </nav><!-- /.primary-navigation -->
+    </header><!-- /#header -->
+
+    <div id="hero" class="hero">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 text-center text-md-start">
+                    <h1> <span class="text-primary fw-bold"> Hi, I'm Anshi Gupta</span></h1>
+                    <div class="page-scroll">
+                        <p class="job-title">I'm a <span id="typed-roles"></span></p>
+
+                       
+                        <div class="clearfix visible-xxs"></div>
+                       
+                    </div>
+
+
+
+
+
+
+                    <div style="margin-top: 90px; text-align: left;">
+                        <h4><strong>Few keywords which define me are:</strong></h4>
+                        <ul style="list-style-type: disc; padding-left: 20px;">
+                            <li><em>Passionate</em></li>
+                            <li><em>Curious</em></li>
+                            <li><em>Analytical Thinker</em></li>
+                            <li><em>Team Player</em></li>
+                            <li><em>Creative Problem Solver</em></li>
+                        </ul>
+                    </div>
+                </div>
+            
+                <div class="col-md-6 text-right">
+                    <img src="assets/img/anshi_gupta.jpg" alt="anshi_gupta">
+
+                   
+                </div>
+
+            </div>
+        </div>
+    </div><!-- /.hero -->
+
+    <main id="main" class="site-main">
+
+        <section id="about" class="site-section section-about text-center">
+            <div class="container">
+                <div class="row align-items-center">
+                    <!-- Text Column -->
+                    <div class="col-md-6">
+       
+                        <h2>About</h2>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                        <p>Hi, I’m <strong>Anshi Gupta</strong> — a curious mind fueled by a passion for technology and data. I’m currently pursuing my Master’s in Data Science at IIIT Lucknow, backed by a strong foundation in Statistics.</p>
+
+                       <p>My journey into tech began with a simple fascination: the idea that I could make a computer do whatever I imagined. That fascination grew into a love for Machine Learning, AI, and Mlops — where logic, creativity, and real-world impact collide.</p>
+
+                       <p>I’ve had the opportunity to work on exciting projects, from fine-tuning large language models like LLaMA to building intelligent dashboards and deploying deep learning applications with tools like Python, Streamlit, PyTorch, and Power BI.</p>
+
+                       <p>Whether I’m building models, coding up dashboards, or diving into new tools, I’m driven by curiosity, purpose, and a hunger to create. Outside of tech, you’ll find me immersed in dancing, exploring YouTube tech deep-dives, or recharging with a good series.</p>
+
+                       <p><strong>For me, it’s not just about working with data — it’s about creating something meaningful with it.</strong></p>
+
+                       
+                    </div>
+                    <!-- Image Column -->
+                    <div class="col-md-6 text-center">
+                    <img src="assets/img/about_img.jpg" alt="" class="img-fluid rounded shadow" style="max-height: 500px;">
+                  </div>
+                </div>
+            </div>
+        </section><!-- /.secton-about -->
+
+        <section class="site-section section-skills">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h3>My Skills</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                 <!-- First Row -->
+        <div class="row mb-8">
+            <div class="col-md-3" data-aos="fade-up">
+                <div class="skill">
+                    <h4>Python</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="90">
+                        90%
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+                <div class="skill">
+                    <h4>SQL</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="80"> 
+                            80%
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="skill">
+                    <h4>Data Visualization</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="94"> 
+                            94%
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                <div class="skill">
+                    <h4>Statistical Analysis</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="97">
+                            97%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="row mb-8">
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                <div class="skill">
+                    <h4>Machine Learning</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="95">
+                            95%
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="500">
+                <div class="skill">
+                    <h4>Deep Learning</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="90">
+                            90%
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="600">
+                <div class="skill">
+                    <h4>NLP and Gen AI</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="83">
+                            83%
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="700">
+                <div class="skill">
+                    <h4>FastAPI and Flask</h4>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" data-transitiongoal="80">
+                            80%
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+        </div>
+        </section><!-- /.secton-skills -->
+
+       <!-- RESUME SECTION -->
+<section class="resume-section" id="resume">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h2 class="section-title">RESUME</h2>
+        <img src="assets/img/lines.svg" alt="lines" class="img-lines">
+        <div>
+            <a href="https://drive.google.com/uc?export=download&id=1XwlkZRZTKwSi8uBAkEldBiieu5w0GGaw" class="btn btn-fill" target="_blank" download>Download My Resume</a>
+        </div>
+      </div>
+  
+      <div class="row">
+        <!-- Left Column -->
+        <div class="col-md-6">
+          <!-- Summary -->
+          <div class="resume-block mb-4">
+            <h4 class="resume-subtitle">Summary</h4>
+            <h5 class="name">ANSHI Gupta</h5>
+            <p class="text-muted">
+              Aspiring AI Specialist and Data Scientist with an M.Sc. in Data Science, skilled in designing ML and NLP solutions for workflow automation and insights. Proficient in data engineering, RAG techniques, and LLM fine-tuning, with expertise in cloud and big data tools to deliver scalable, innovative solutions.
+            </p>
+            <ul class="list-unstyled">
+              <li>📍 Uttar Pradesh, India</li>
+              <li>📞 +91 8755600171</li>
+              <li>✉️ anshigupta9003@gmail.com</li>
+            </ul>
+          </div>
+  
+          <!-- Education -->
+          <div class="resume-block">
+            <h4 class="resume-subtitle">Education</h4>
+            <div class="edu-item">
+               <h5><strong>Master of Science (Data Science)</strong></h5>
+
+              <p><em>Indian Institute of Information Technology, Lucknow, India</em></p>
+              <ul>
+                <li>2023 – 2025</li>
+                <li>SGPA: 9.0 (1st Year)</li>
+                <li>Teacher Assistant under Dr. Mary Samuel</li>
+              </ul>
+            </div>
+            <div class="edu-item mt-3">
+              <h5><strong>B.Sc.  Statistics</strong></h5>
+              <p><em>CCSU, UP, India</em></p>
+              <ul>
+                <li>2020 – 2023</li>
+                <li>CGPA: 7.6</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Right Column -->
+        <div class="col-md-6">
+          <div class="resume-block">
+            <h4 class="resume-subtitle">Professional Experience</h4>
+  
+        
+            <div class="exp-item">
+              <h5>Gen AI Engineer Intern</h5>
+              <p><strong>Logiciel Analytics</strong> — <em>September 2024 – February 2025</em></p>
+              <ul>
+                <li>Automated voucher creation using fine-tuned LLMs (86% accuracy improvement).</li>
+                <li>Constructed relational DB with 6 core tables.</li>
+                <li><strong>Tech Stack:</strong> LLMs, Fine-tuning, Data Modeling</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+
+
+  <section id="projects" class="site-section section-projects">
+    <div class="container">
+        <div class="text-center">
+            <h3>Projects</h3>
+            <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+        </div>
+        <div class="row">
+            <!-- Start of a single project card -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="portfolio-item h-100">
+                    <img src="assets/img/image_cap.png" class="img-res" alt="">
+                    <div class="portfolio-item-info">
+                        <h4>Image Captioning</h4>
+                        <a href="https://github.com/AnshiGupta1/Image_Captioning_DL_NLP"><span class="glyphicon glyphicon-link"></span></a>
+                    </div>
+                    <p>Developed a deep learning model that generates descriptive captions for images using CNN for feature extraction and LSTM for sequence generation. Trained on COCO dataset and evaluated using BLEU score.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="portfolio-item h-100">
+                    <img src="assets/img/images.png" class="img-res" alt="">
+                    <div class="portfolio-item-info">
+                        <h4>RagifyQnA</h4>
+                        <a href="https://github.com/AnshiGupta1/RAGifyQnA"><span class="glyphicon glyphicon-link"></span></a>
+                    </div>
+                    <p>Built a real-time document Q&A system using Retrieval-Augmented Generation (RAG). Uses Qdrant and Flasheranker for relevant content retrieval and LLM for answer generation.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="portfolio-item h-100">
+                    <img src="assets/img/blinkit_dash.jpg" class="img-res" alt="">
+                    <div class="portfolio-item-info">
+                        <h4>Blinkit Sales Dashboard</h4>
+                        <a href="https://github.com/AnshiGupta1/Blinkit-Dashboard"><span class="glyphicon glyphicon-link"></span></a>
+                    </div>
+                    <p>Created a dynamic Power BI dashboard to visualize Blinkit’s sales trends, order volumes, and regional performance. Enabled stakeholders to identify high-performing products and optimize inventory.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="portfolio-item h-100">
+                    <img src="assets/img/credit_card.jpeg" class="img-res" alt="">
+                    <div class="portfolio-item-info">
+                        <h4>Credit Card Customer Segmentation</h4>
+                        <a href="https://github.com/AnshiGupta1/Credit_card_customer_segmentation"><span class="glyphicon glyphicon-link"></span></a>
+                    </div>
+                    <p>Applied K-Means clustering to segment credit card customers based on spending and payment behavior. Helped in identifying customer personas like high spenders, revolvers, and transactors for targeted marketing.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="portfolio-item h-100">
+                    <img src="assets/img/market_basket.jpeg" class="img-res" alt="">
+                    <div class="portfolio-item-info">
+                        <h4>Market Basket Analysis</h4>
+                        <a href="https://github.com/AnshiGupta1/Market_Basket_Analysis_and_Customer_Segmentation"><span class="glyphicon glyphicon-link"></span></a>
+                    </div>
+                    <p>Performed association rule mining using the Apriori algorithm on retail transaction data. Identified frequent itemsets and product pairings to recommend product bundles and cross-selling opportunities.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="portfolio-item h-100">
+                    <img src="assets/img/crypto.jpeg" class="img-res" alt="">
+                    <div class="portfolio-item-info">
+                        <h4>Coin Oracle</h4>
+                        <a href="https://github.com/AnshiGupta1/Coin_Oracle"><span class="glyphicon glyphicon-link"></span></a>
+                    </div>
+                    <p>Developed a Streamlit-based app that delivers real-time crypto insights using CoinGecko and Together APIs (LLaMA model). Visualized data using Matplotlib and handled processing with Pandas.</p>
+                </div>
+            </div>
+            <!-- End of a single project card -->
+        </div>
+
+        <div class="text-center mt-4">
+          <p style="font-size: 17px; font-weight: 600; color: #333;">
+              🧠 <strong>You’ve just scratched the surface.</strong> Unlock the full repository of my mind on 
+              <a href="https://github.com/AnshiGupta1" target="_blank" style="color: #007bff; text-decoration: none; font-weight: 700;">
+                  GitHub
+              </a>.
+          </p>
+        </div>
+        
+      
+    </div>
+</section>
+
+
+        <section class="site-section section-counters text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <p class="counter start" data-to="10" data-speed="2000">0</p>
+                        <h4>Certifications That Built Me</h4>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <p class="counter start" data-to="12" data-speed="2000">0<span>+</span></p>       
+                        <h4>Projects Delivered on Github</h4>      
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <p id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000">0</p>
+                        <h4>Second Here? Let’s Build the Future Together!</h4>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.section-counters -->
+
+
+         <!-- CONTACT SECTION -->
+        <section id="contact" style="background-color: #000; color: white; padding: 60px 0;">
+            <div class="container text-center">
+            <h2 style="font-weight: 700;">Contact Me</h2>
+            <p style="opacity: 0.7;">Below are the details to reach out to me!</p>
+  
+           <div class="row mt-5">
+            <!-- Address -->
+            <div class="col-md-3 col-6 mb-4">
+              <div class="icon-circle mb-3"><i class="fas fa-map-marker-alt"></i></div>
+              <h6>ADDRESS</h6>
+              <p>Uttar Pradesh, India</p>
+            </div>
+  
+          <!-- Phone -->
+           <div class="col-md-3 col-6 mb-4">
+              <div class="icon-circle mb-3"><i class="fas fa-phone-alt"></i></div>
+              <h6>CONTACT NUMBER</h6>
+                <p>+91 8755600171</p>
+            </div>
+  
+            <!-- Email -->
+            <div class="col-md-3 col-6 mb-4">
+               <div class="icon-circle mb-3"><i class="fas fa-envelope"></i></div>
+               <h6>EMAIL ADDRESS</h6>
+               <p>
+                 <a href="mailto:anshigupta9003@gmail.com" style="color: #f0a500;">
+                   anshigupta9003@gmail.com
+                 </a>
+               </p>
+            </div>
+  
+             <!-- Resume -->
+             <div class="col-md-3 col-6 mb-4">
+               <div class="icon-circle mb-3"><i class="fas fa-file-download"></i></div>
+                <h6>DOWNLOAD RESUME</h6>
+               <p><a href="https://drive.google.com/uc?export=download&id=1XwlkZRZTKwSi8uBAkEldBiieu5w0GGaw" target="_blank" style="color: #f0a500;">resumelink</a></p>
+             </div>
+         </div>
+  
+            <!-- Social Icons -->
+              <div class="mt-4">
+              <span>Find me on</span><br>
+                  <a href="https://www.linkedin.com/in/anshi-gupta-93752628a/" target="_blank" class="social-icon mx-2">
+                  <i class="fab fa-linkedin-in"></i>
+                   </a>
+                    <a href="https://github.com/AnshiGupta1" target="_blank" class="social-icon mx-2">
+                       <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://www.kaggle.com/anshigupta12" target="_blank" class="social-icon mx-2">
+                      <i class="fab fa-kaggle"></i>
+                   </a>
+                 </div>
+            </div>
+  </section>
+
+
+
+
+
+        
+      
+
+
+
+
+
+
+  
+
+
+
+  
+
+    </main><!-- /#main -->
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <a class="icon facebook-bg" href="#"><i class="icon-facebook"></i></a>
+                    <a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>
+                    <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
+                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
+                </div>
+                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2017. All Rights Reserved</p></div>
+                <div class="col-sm-4 col-xs-3">
+                    <div class="text-right page-scroll">
+                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- /#footer -->
+
+    <!-- Modals -->
+    <div id="portfolioItem1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-1.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-2.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem3" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-3.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem4" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-4.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem5" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-5.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem6" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="assets/img/portfolio-6.jpg" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#" class="btn btn-fill">Visit Page</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/js/script.js"></script>
+ <!-- AOS Script -->
+ <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+ <script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script> 
+</body>
+</html>
